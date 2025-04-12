@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎁 A Surprise for You!</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="confetti-canvas"></canvas>
+
+  <div class="intro">
+    <h1>Hello Haruuuuu</h1>
+    <p>Kẹo có 1 bất ngờ nhỏ nhoi cho ru nè :3 Ru đeo tai nghe vào nha có âm thanh á ❤️</p>
+    <button id="openGift">🎁 Khui quà liền tay </button>
+  </div>
+
+  <div class="surprise hidden">
+    <h2 class="animated bounce-in">🎂 Happy Birthday!</h2>
+    <p class="message animated fade-in">
+      You’re such a bright light in this world, and I’m so lucky to know you.<br>
+      Here’s to endless laughter, amazing memories, and the most beautiful days ahead. 💖
+    </p>
+    <img src="cake.png" alt="Birthday Cake" class="surprise-img" />
+  </div>
+
+  <audio id="birthdaySong" src="happy-birthday.mp3" preload="auto"></audio>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
